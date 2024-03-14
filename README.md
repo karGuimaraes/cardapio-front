@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# Cardápio - Front-end
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/karGuimaraes/cardapio-front/assets/39937365/daadd77f-b454-442e-8867-f29cdbb91005)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é a parte do front-end básico para exibição do CRUD desenvolvido no repositório: https://github.com/karGuimaraes/cardapio
 
-## Expanding the ESLint configuration
+## Funcionalidades Principais
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Visualização de todos os itens de alimentos disponíveis.
+- Adição de novos itens de alimentos.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Este projeto utiliza as seguintes tecnologias:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React
+- TypeScript
+- Axios (para fazer requisições HTTP para o backend)
+
+## Setup do Projeto
+
+Siga as instruções abaixo para configurar e executar o projeto localmente:
+
+1. Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
+2. Clone este repositório para o seu ambiente local.
+3. Abra um terminal na pasta do projeto.
+4. Instale as dependências do projeto executando o seguinte comando:
+   ```
+   npm install
+   ```
+5. Configure as variáveis de ambiente necessárias, como a URL do backend, se necessário.
+6. Inicie o servidor de desenvolvimento executando o seguinte comando:
+   ```
+   npm run dev
+   ```
