@@ -1,9 +1,10 @@
 # Cardápio - Front-end
+<div align="center">
 
-![image](https://github.com/karGuimaraes/cardapio-front/assets/39937365/daadd77f-b454-442e-8867-f29cdbb91005)
+![Captura de tela 2024-03-14 182509](https://github.com/karGuimaraes/cardapio-front/assets/39937365/99ca6ea7-509a-4e97-8544-0354e567cb12)
 
-
-Este projeto é a parte do front-end básico para exibição do CRUD desenvolvido no repositório: https://github.com/karGuimaraes/cardapio
+</div>
+Este projeto é a parte do front-end básico para exibição do CRUD desenvolvido no repositório: [back-end](https://github.com/karGuimaraes/cardapio)
 
 ## Funcionalidades Principais
 
